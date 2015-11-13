@@ -4,7 +4,6 @@ import android.animation.Animator;
 import android.animation.LayoutTransition;
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
-import android.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,7 +21,7 @@ public class AnimatedViewGroupActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_animated_list_view);
+        setContentView(R.layout.activity_animated_view_group);
 
         mContainer = (LinearLayout) findViewById(R.id.container);
 

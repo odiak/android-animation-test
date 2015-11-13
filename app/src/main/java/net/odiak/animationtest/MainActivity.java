@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
             FlipAnimationActivity.class,
             FlipAnimation2Activity.class,
             AnimatedViewGroupActivity.class,
+            AnimatedListViewActivity.class,
     };
 
     @Override

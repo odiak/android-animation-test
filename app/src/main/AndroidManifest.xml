@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".AnimatedViewGroupActivity" >
         </activity>
+        <activity android:name=".AnimatedListViewActivity" >
+        </activity>
     </application>
 
 </manifest>
